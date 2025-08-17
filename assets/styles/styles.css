@@ -2,28 +2,51 @@
     padding: 0%;
     margin: 0%;
 }
-.PrincipalContainer{
+.flex {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
 }
 
-.PrincipalSection{
-    display: flex;
-    justify-content: center;
+.PrincipalContainer{
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    width: 100vw;
+    width: 100vw; 
 }
+
 .ContactSection{
-    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.UserSection{
+    flex-direction: row;
+    padding-top: 20px;
+}
+.PrincipalSection{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    flex-grow: 5;
+    flex-direction: column;
+}
+.UserInfo{
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.NormalThumbnail{
+    border-radius: 50%;
+    width: 100px;
+}
+.handLogo{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+.textCenter {
+    text-align: center;
 }
 .paintbloque1{
     background-color: red;
