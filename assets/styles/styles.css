@@ -2,8 +2,33 @@
     padding: 0%;
     margin: 0%;
 }
+
+body {
+    font-family: "Roboto", "Open Sans";
+    font-weight: 400; /* Bold Personalizado */
+}
 .flex {
     display: flex;
+}
+
+/* TAMAÑOS TEXTO*/
+
+.textL{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.textM {
+    font-size: 16px;
+    font-weight: 400;
+}
+.textS {
+    font-size: 16px;
+    font-weight: 400;
+}
+.textXS {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .PrincipalContainer{
@@ -15,14 +40,17 @@
 
 .ContactSection{
     justify-content: top;
-    align-items: center;
     height: 100vh;
     flex-grow: 1;
     flex-direction: column;
 }
+
 .UserSection{
     flex-direction: row;
     padding-top: 20px;
+    padding-right: 10px;
+    justify-content: space-between;
+    
 }
 .PrincipalSection{
     justify-content: center;
@@ -36,9 +64,30 @@
     margin-left: 20px;
 }
 
-.NormalThumbnail{
+.userName{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.TinyThumbnail{
     border-radius: 50%;
-    width: 100px;
+    width: 60px;
+    height:auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #E8EBE4;
+    object-fit: cover;
+
+}
+
+.NormalThumbnail {
+    border-radius: 50%;
+    object-fit: 60;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #E8EBE4;
 }
 .handLogo{
     width: 200px;
@@ -48,6 +97,7 @@
 .textCenter {
     text-align: center;
 }
+
 .paintbloque1{
     background-color: red;
 }
