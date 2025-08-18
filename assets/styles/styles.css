@@ -6,6 +6,7 @@
 body {
     font-family: "Roboto", "Open Sans";
     font-weight: 400; /* Bold Personalizado */
+    color: #1B1F21;
 }
 .flex {
     display: flex;
@@ -66,7 +67,7 @@ body {
 }
 .UserInfo{
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .userName{
@@ -87,6 +88,7 @@ body {
     margin-right: 10px;
 }
 
+/*Boton*/
 .buttonContainer{
     align-items: center;
     justify-content: center;
@@ -96,10 +98,21 @@ body {
 .nuevoChatBtm{
     background-color: #A491D2 ;
     color:white;
-    
+    padding: 10px 40px;
+    border: none;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.nuevoChatBtm:hover{
+    background-color: #CDC3E6;
+    cursor: pointer;
+}
+
+.nuevoChatBtm:focus {
+    background-color: #BEC1BB;
+}
+
 
 .TinyThumbnail{
     border-radius: 50%;
@@ -114,11 +127,42 @@ body {
 
 .NormalThumbnail {
     border-radius: 50%;
+    width: 45px;
+    height: auto;
     object-fit: 60;
     border-width: 3px;
     border-style: solid;
     border-color: #E8EBE4;
 }
+.chatlist{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+
+.chatCard{
+    
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    padding-left: 60px;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.contactTextContainer {
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.colorGray{
+    color: #BEC1BB;
+}
+
 .handLogo{
     width: 250px;
     height: auto;
