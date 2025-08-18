@@ -23,11 +23,11 @@ body {
     font-weight: 400;
 }
 .textS {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 .textXS {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -50,6 +50,7 @@ body {
     padding-top: 20px;
     padding-right: 10px;
     justify-content: space-between;
+    align-items: center;
     
 }
 .PrincipalSection{
@@ -58,10 +59,11 @@ body {
     height: 100vh;
     flex-grow: 5;
     flex-direction: column;
+    background-color:#E8EBE4 ;
 }
 .UserInfo{
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .userName{
@@ -71,9 +73,19 @@ body {
     margin-left: 10px;
 }
 
+.userInfoTextContainer{
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.userIcons{
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
 .TinyThumbnail{
     border-radius: 50%;
-    width: 60px;
+    width: 30px;
     height:auto;
     border-width: 3px;
     border-style: solid;
@@ -90,18 +102,12 @@ body {
     border-color: #E8EBE4;
 }
 .handLogo{
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 20px;
+    border-radius: 10px;
 }
 .textCenter {
     text-align: center;
 }
 
-.paintbloque1{
-    background-color: red;
-}
-
-.paintbloque2 {
-    background-color: rgb(0, 255, 47);
-}
